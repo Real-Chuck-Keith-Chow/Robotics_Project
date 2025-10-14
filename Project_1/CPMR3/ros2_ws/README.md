@@ -9,3 +9,7 @@ ros-humble-navigation2 - nav2 library
 ros-humble-nav2-bringup - nav2 bringup tools
 ros-humble-xacro - support for xacro
 You will need have these installed prior to many of the packages building successfully.
+
+
+
+This project (Project 1) has a version of the bug0 algorithm that assumes that the world is an infinite plane with circular obstacles at known locations and with know radii. The algorithm I made should leave circles at tangent points that provide a direct line to the goal location. 
